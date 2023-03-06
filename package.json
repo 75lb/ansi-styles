@@ -1,5 +1,5 @@
 {
-	"name": "ansi-styles",
+	"name": "@75lb/ansi-styles",
 	"version": "4.3.0",
 	"description": "ANSI escape codes for styling strings in the terminal",
 	"license": "MIT",

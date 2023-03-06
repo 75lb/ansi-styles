@@ -156,8 +156,4 @@ function assembleStyles() {
 	return styles;
 }
 
-// Make the export immutable
-Object.defineProperty(module, 'exports', {
-	enumerable: true,
-	get: assembleStyles
-});
+module.exports = assembleStyles()
